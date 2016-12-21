@@ -1,20 +1,16 @@
 {
-  "title":"Write the name of your script here",
-  "description":"Write a short description of what your script does here",
+  "pwtoolVersion":"0.2.0",
+  "title":"Create or Update Placeholder Sheets from Excel",
+  "description":"Using excel files, create new or update existing placeholder sheet data. This script currently looks for Sheet Number (col1), Sheet Name (col2), Drawing List Grouping (col3), and Issue Date (col4). Issue date could be any value, but is intended to be a dot",
   "coverImage":"./_PW/cover.png",
   "authors":[{
-    "name":"Kyle Example",
-    "email":"kyle.example@example.com",
+    "name":"Josh Moore",
+    "email":"josh.moore@perkinswill.com",
     "role":"developer"
   }],
-  "offices":[
-    "NewYork",
-    "SanFrancisco"
-  ],
-  "projects":[{
-    "name":"Example Project",
-    "number":"123456.000",
-	"marketSector":"CCC"
+  "platform":[{
+    "name":"Dynamo",
+    "version":"1.2.1"
   }],
   "dependencies":[{
     "author":"Autodesk",
@@ -22,7 +18,13 @@
     "version":"2016"
   }],
   "tags":[
-    "boilerplate",
-    "example"
-  ]
+    "Excel",
+    "Sheets"
+  ],
+  "projects":[{
+    "name":"",
+    "number":"",
+	"marketSector":"",
+	"office":""
+  }]
 }
